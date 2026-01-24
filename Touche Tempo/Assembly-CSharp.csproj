@@ -1118,6 +1118,10 @@
       <Project>{63A8C41B-CE60-FEEE-8862-B052685A2175}</Project>
       <Name>Unity.RenderPipelines.Core.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="FMODUnityEditor.csproj">
+      <Project>{A88BAD94-5F29-0794-3C78-2ED554BE3E8F}</Project>
+      <Name>FMODUnityEditor</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.Analytics.csproj">
       <Project>{C0B90FD4-8FC4-F3C6-F788-195635523D8F}</Project>
       <Name>UnityEditor.UI.Analytics</Name>
@@ -1202,6 +1206,10 @@
       <Project>{6F66B918-63D7-7DBB-5763-0D6E15A5EF8B}</Project>
       <Name>Unity.UnifiedRayTracing.Runtime</Name>
     </ProjectReference>
+    <ProjectReference Include="FMODUnityHaptics.csproj">
+      <Project>{3FF106FB-1C47-EC5A-BE94-AF59FD60E4E4}</Project>
+      <Name>FMODUnityHaptics</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Rider.Editor.csproj">
       <Project>{D03AF1DD-16BB-3F3C-2E20-461DF5AD4436}</Project>
       <Name>Unity.Rider.Editor</Name>
@@ -1221,6 +1229,14 @@
     <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
       <Project>{9091E91A-1948-7CC8-DE5A-D1107EAC9224}</Project>
       <Name>Unity.VisualScripting.Flow</Name>
+    </ProjectReference>
+    <ProjectReference Include="FMODUnityResonance.csproj">
+      <Project>{29428ECB-638A-4EBE-C206-62A49C4E857B}</Project>
+      <Name>FMODUnityResonance</Name>
+    </ProjectReference>
+    <ProjectReference Include="FMODUnity.csproj">
+      <Project>{6EA124EB-3EB2-DE98-8E02-B16E36492526}</Project>
+      <Name>FMODUnity</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
       <Project>{BB10C0F8-4BAB-9F3B-3AC7-314490D50A65}</Project>
@@ -1297,6 +1313,10 @@
     <ProjectReference Include="Unity.RenderPipelines.Universal.Config.Runtime.csproj">
       <Project>{E549C5A3-C06A-E079-6743-F12E1AAFBCCC}</Project>
       <Name>Unity.RenderPipelines.Universal.Config.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="FMODUnityResonanceEditor.csproj">
+      <Project>{F9EE326F-76EF-E800-BE60-7EBA2F585EB7}</Project>
+      <Name>FMODUnityResonanceEditor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipeline.Universal.ShaderLibrary.csproj">
       <Project>{0334CCA8-6189-68D3-0D0F-F4FAB9881A0B}</Project>
