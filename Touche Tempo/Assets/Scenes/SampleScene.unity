@@ -552,7 +552,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Judge
   goalState: 0
   playerState: 0
-  goalBeat: 0
+  goalBeat: 4
   metronome: {fileID: 985005380}
 --- !u!4 &834474206
 Transform:
@@ -602,9 +602,9 @@ MonoBehaviour:
   playerState: 0
   parryTimeMs: 250
   sprite: {fileID: 913965255}
-  highCol: {r: 0.82641506, g: 0.34148094, b: 0.34148094, a: 0}
-  medCol: {r: 0.6093152, g: 0.7584905, b: 0.19892481, a: 0}
-  lowCol: {r: 0.17615035, g: 0.15617657, b: 0.7735849, a: 0}
+  highCol: {r: 0.82641506, g: 0.34148094, b: 0.34148094, a: 1}
+  medCol: {r: 0.6093152, g: 0.7584905, b: 0.19892481, a: 1}
+  lowCol: {r: 0.17615035, g: 0.15617657, b: 0.7735849, a: 1}
 --- !u!212 &913965255
 SpriteRenderer:
   serializedVersion: 2
