@@ -29,6 +29,15 @@
       "source": "registry",
       "testable": false
     },
+    "com.unity.feature.2d@2.0.2": {
+      "name": "com.unity.feature.2d",
+      "displayName": "2D",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.feature.2d@0309d34ea7f2",
+      "fingerprint": "0309d34ea7f24c916d9ac46e556759d54f3b9f3e",
+      "version": "2.0.2",
+      "source": "builtin",
+      "testable": false
+    },
     "com.unity.ide.rider@3.0.38": {
       "name": "com.unity.ide.rider",
       "displayName": "JetBrains Rider Editor",
@@ -447,6 +456,96 @@
       "source": "builtin",
       "testable": false
     },
+    "com.unity.2d.animation@13.0.4": {
+      "name": "com.unity.2d.animation",
+      "displayName": "2D Animation",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.2d.animation@7396d8477ca9",
+      "fingerprint": "7396d8477ca93349104292dd0d2c0df8d8ad4c21",
+      "editorCompatibility": "6000.3.0a2",
+      "version": "13.0.4",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.2d.pixel-perfect@5.1.1": {
+      "name": "com.unity.2d.pixel-perfect",
+      "displayName": "2D Pixel Perfect",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.2d.pixel-perfect@09d99455b901",
+      "fingerprint": "09d99455b9018d7a152bb766d42b2569236a7b4a",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "5.1.1",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.2d.psdimporter@12.0.1": {
+      "name": "com.unity.2d.psdimporter",
+      "displayName": "2D PSD Importer",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.2d.psdimporter@9abe0f7cac7e",
+      "fingerprint": "9abe0f7cac7effda42d93c33a6c35134cca1bee3",
+      "editorCompatibility": "6000.3.0a2",
+      "version": "12.0.1",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.2d.sprite@1.0.0": {
+      "name": "com.unity.2d.sprite",
+      "displayName": "2D Sprite",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.2d.sprite@82f01c8c75ca",
+      "fingerprint": "82f01c8c75ca2d707990e8dc249b71ab7d1aa33e",
+      "editorCompatibility": "2019.2.0a1",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.2d.spriteshape@13.0.0": {
+      "name": "com.unity.2d.spriteshape",
+      "displayName": "2D SpriteShape",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.2d.spriteshape@0738bab11647",
+      "fingerprint": "0738bab116473980325be8cdb7c3c42ab6961778",
+      "editorCompatibility": "6000.3.0a2",
+      "version": "13.0.0",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.2d.tilemap@1.0.0": {
+      "name": "com.unity.2d.tilemap",
+      "displayName": "2D Tilemap Editor",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.2d.tilemap@2428aeee2f73",
+      "fingerprint": "2428aeee2f739ba27e841f87bdc993170fe923b9",
+      "editorCompatibility": "2019.2.0a1",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.2d.tilemap.extras@6.0.1": {
+      "name": "com.unity.2d.tilemap.extras",
+      "displayName": "2D Tilemap Extras",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.2d.tilemap.extras@3dde84bf3867",
+      "fingerprint": "3dde84bf38677b4165ad5f568b353d4ba942d63c",
+      "editorCompatibility": "6000.3.0a2",
+      "version": "6.0.1",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.2d.aseprite@3.0.1": {
+      "name": "com.unity.2d.aseprite",
+      "displayName": "2D Aseprite Importer",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.2d.aseprite@809e3a168ff7",
+      "fingerprint": "809e3a168ff77eff802b4b24c10cf6254618245a",
+      "editorCompatibility": "6000.3.0a2",
+      "version": "3.0.1",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.2d.tooling@1.0.2": {
+      "name": "com.unity.2d.tooling",
+      "displayName": "2D Tooling",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.2d.tooling@249995156768",
+      "fingerprint": "2499951567687634a16f41e9f26ee5dfeb8f8da6",
+      "editorCompatibility": "6000.3.0a2",
+      "version": "1.0.2",
+      "source": "registry",
+      "testable": false
+    },
     "com.unity.searcher@4.9.4": {
       "name": "com.unity.searcher",
       "displayName": "Searcher",
@@ -484,6 +583,16 @@
       "fingerprint": "aea9d3bd5e19f2a90fc3a39919974a5f3613a159",
       "editorCompatibility": "2022.3.20f1",
       "version": "2.6.2",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.2d.common@12.0.2": {
+      "name": "com.unity.2d.common",
+      "displayName": "2D Common",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.2d.common@800085e896ad",
+      "fingerprint": "800085e896ad4b33b2dc3739891463543ac489d1",
+      "editorCompatibility": "6000.3.0a2",
+      "version": "12.0.2",
       "source": "registry",
       "testable": false
     },

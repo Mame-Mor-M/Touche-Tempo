@@ -61,7 +61,7 @@ public class MusicManager : MonoBehaviour
     {
         musicPlayEvent.getTimelinePosition(out timelineInfo.currentPosition);
 
-        //Array with two markers, go by marker name. I.e. 1.1 Is the start of beat 1, 1.2 is the end of beat 1 and so on. 2.1 start of beat 2, 2.2 end of beat 2.
+        //Stack with two markers, go by marker name. I.e. 1.1 Is the start of beat 1, 1.2 is the end of beat 1 and so on. 2.1 start of beat 2, 2.2 end of beat 2.
         //Collect first marker, person has to press button before a second marker is added, If second marker is added, clear the stack
 
   
@@ -83,7 +83,7 @@ public class MusicManager : MonoBehaviour
             
         }
 
-        Debug.Log("WINDOW COUNT: " + timeWindow.Count);
+        Debug.Log("WINDOW COUNT: " + timeWindow.Count); // 
 
 
     }
