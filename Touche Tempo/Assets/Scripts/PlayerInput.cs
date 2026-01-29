@@ -14,6 +14,8 @@ public class PlayerInput : MonoBehaviour
     private SpriteRenderer sprite;
     [SerializeField]
     private Color highCol, medCol, lowCol;
+    [SerializeField]
+    private Sprite highParry, medParry, lowParry, idle;
 
 
    
@@ -33,18 +35,18 @@ public class PlayerInput : MonoBehaviour
         if (playerState != State.Idle)
             return;
         else if (parryHigh.WasPressedThisFrame())
-            StartCoroutine(Parry(State.ParryHigh, highCol));
+            StartCoroutine(Parry(State.ParryHigh, highParry));
         else if (parryMedium.WasPressedThisFrame())
-            StartCoroutine(Parry(State.ParryMedium, medCol));
+            StartCoroutine(Parry(State.ParryMedium, medParry));
         else if (parryLow.WasPressedThisFrame())
-            StartCoroutine(Parry(State.ParryLow, lowCol));
+            StartCoroutine(Parry(State.ParryLow, lowParry));
     }
 
-    private IEnumerator Parry(State height, Color color)
+    private IEnumerator Parry(State height, Sprite stance)
     {
         //Activate Parry
         playerState = height;
-        sprite.color = color;
+        sprite.sprite = stance;
         Debug.Log("Entering State: " + height.ToString());
 
         //Wait
@@ -52,7 +54,7 @@ public class PlayerInput : MonoBehaviour
 
         //Deactivate Parry
         playerState = State.Idle;
-        sprite.color = Color.white;
+        sprite.sprite = idle;
         Debug.Log("Entering State: Idle");
     }
 }

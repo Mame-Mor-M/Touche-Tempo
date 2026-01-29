@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639052290478718161
-    m_Hash: 2432366208
+      ticks: 639053097317832887
+    m_Hash: 3487452178
   m_LockFileStatus:
     m_FilePath: C:/Users/mamem/Touche-Tempo/Touche Tempo/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639052290478817764
-    m_Hash: 2374999690
+      ticks: 639053097317851593
+    m_Hash: 448930848
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -7434,9 +7434,11 @@ m_ResolvedPackages:
     - 1.8.25
     - 1.8.26
     - 1.8.27
+    - 1.8.28
     compatible:
     - 1.8.27
-    recommended: 1.8.27
+    - 1.8.28
+    recommended: 1.8.28
     deprecated: []
   dependencies:
   - name: com.unity.mathematics
