@@ -260,7 +260,7 @@ MonoBehaviour:
   MasterBanks:
   - Master
   Banks:
-  - Vs. The Swan
+  - Vs. Swana
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0
@@ -277,17 +277,17 @@ MonoBehaviour:
   LastEventReferenceScanVersion: 131858
   Platforms:
   - {fileID: -8807492516893251524}
-  - {fileID: 568869901179913148}
-  - {fileID: 6091316320513265188}
-  - {fileID: 4945100565643006148}
-  - {fileID: 9015887314820740442}
-  - {fileID: 6353451032187486007}
-  - {fileID: 2293788846396796442}
-  - {fileID: 666757878641099413}
-  - {fileID: -1196368808469705847}
   - {fileID: -4750259860651543874}
+  - {fileID: -1196368808469705847}
+  - {fileID: 568869901179913148}
+  - {fileID: 666757878641099413}
+  - {fileID: 2293788846396796442}
+  - {fileID: 4945100565643006148}
+  - {fileID: 6091316320513265188}
+  - {fileID: 6353451032187486007}
   - {fileID: 7099381161105819492}
   - {fileID: 8032770423678857691}
+  - {fileID: 9015887314820740442}
   MigratedPlatforms: 0a00000000000000150000000b00000009000000050000001200000008000000060000000c0000000200000001000000
 --- !u!114 &568869901179913148
 MonoBehaviour:
@@ -359,16 +359,16 @@ MonoBehaviour:
     HasValue: 0
   displaySortOrder: 0
   childIdentifiers:
-  - 2fea114e74ecf3c4f920e1d5cc1c4c40
-  - c88d16e5272a4e241b0ef0ac2e53b73d
-  - 2c5177b11d81d824dbb064f9ac8527da
-  - e7a046c753c3c3d4aacc91f6597f310d
-  - fd7c55dab0fce234b8c25f6ffca523c1
-  - 52eb9df5db46521439908db3a29a1bbb
-  - 0f8eb3f400726694eb47beb1a9f94ce8
   - 46fbfdf3fc43db0458918377fd40293e
+  - 0f8eb3f400726694eb47beb1a9f94ce8
+  - 52eb9df5db46521439908db3a29a1bbb
+  - fd7c55dab0fce234b8c25f6ffca523c1
+  - c88d16e5272a4e241b0ef0ac2e53b73d
+  - 2fea114e74ecf3c4f920e1d5cc1c4c40
+  - e7a046c753c3c3d4aacc91f6597f310d
   - de700ef3f37a49b58a57ae3addf01ad9
   - b7716510a1f36934c87976f3a81dbf3d
+  - 2c5177b11d81d824dbb064f9ac8527da
   codecChannels:
     Value: []
     HasValue: 0

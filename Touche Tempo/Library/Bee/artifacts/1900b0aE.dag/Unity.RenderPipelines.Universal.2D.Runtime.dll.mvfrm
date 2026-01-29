@@ -1,3 +1,13 @@
+SpriteLibrary
+UnityEngine
+Experimental
+U2D
+Animation
+SpriteCategoryEntry
+SpriteLibCategory
+SpriteLibraryAsset
+SpriteResolver
+SpriteSkin
 MaterialQuality
 Utilities
 MaterialQualityUtilities
@@ -132,11 +142,9 @@ AnimatorJobExtensions
 MuscleHandle
 ExpressionEvaluator
 UnityEditor
-EventModifiers
-UnityEngine
-IMUGI
 NumericFieldDraggerUtility
 Profiler
+UnityEngine
 PhotoCaptureFileOutputFormat
 XR
 WSA

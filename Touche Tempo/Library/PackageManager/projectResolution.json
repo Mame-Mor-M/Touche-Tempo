@@ -1,12 +1,12 @@
 {
   "context": {
     "projectPath": "C:/Users/mamem/Touche-Tempo/Touche Tempo/Packages",
-    "unityVersion": "6000.3.4f1"
+    "unityVersion": "6000.3.5f2"
   },
   "inputs": [
     "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Packages\\manifest.json",
     "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Packages\\packages-lock.json",
-    "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\BuiltInPackagesCombined.sha1"
+    "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.5f2\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\BuiltInPackagesCombined.sha1"
   ],
   "outputs": {
     "com.unity.ai.navigation@2.0.9": {
@@ -27,6 +27,15 @@
       "editorCompatibility": "2021.3.0f1",
       "version": "2.11.2",
       "source": "registry",
+      "testable": false
+    },
+    "com.unity.feature.2d@2.0.2": {
+      "name": "com.unity.feature.2d",
+      "displayName": "2D",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.feature.2d@0309d34ea7f2",
+      "fingerprint": "0309d34ea7f24c916d9ac46e556759d54f3b9f3e",
+      "version": "2.0.2",
+      "source": "builtin",
       "testable": false
     },
     "com.unity.ide.rider@3.0.38": {
@@ -72,8 +81,8 @@
     "com.unity.render-pipelines.universal@17.3.0": {
       "name": "com.unity.render-pipelines.universal",
       "displayName": "Universal Render Pipeline",
-      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.render-pipelines.universal@d10049dfa479",
-      "fingerprint": "d10049dfa47938849dbc2893bf682efe4fe4cd18",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.render-pipelines.universal@1e87cf1dccb8",
+      "fingerprint": "1e87cf1dccb843c76f715e529818d2d3a89e78ed",
       "editorCompatibility": "6000.3.0a1",
       "version": "17.3.0",
       "source": "builtin",
@@ -122,7 +131,7 @@
     "com.unity.modules.accessibility@1.0.0": {
       "name": "com.unity.modules.accessibility",
       "displayName": "Accessibility",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.accessibility",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.modules.accessibility",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -130,7 +139,7 @@
     "com.unity.modules.adaptiveperformance@1.0.0": {
       "name": "com.unity.modules.adaptiveperformance",
       "displayName": "Adaptive Performance",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.adaptiveperformance",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.modules.adaptiveperformance",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -138,7 +147,7 @@
     "com.unity.modules.ai@1.0.0": {
       "name": "com.unity.modules.ai",
       "displayName": "AI",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.ai",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.modules.ai",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -146,7 +155,7 @@
     "com.unity.modules.androidjni@1.0.0": {
       "name": "com.unity.modules.androidjni",
       "displayName": "Android JNI",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.androidjni",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.modules.androidjni",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -154,7 +163,7 @@
     "com.unity.modules.animation@1.0.0": {
       "name": "com.unity.modules.animation",
       "displayName": "Animation",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.animation",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.modules.animation",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -162,7 +171,7 @@
     "com.unity.modules.assetbundle@1.0.0": {
       "name": "com.unity.modules.assetbundle",
       "displayName": "Asset Bundle",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.assetbundle",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.modules.assetbundle",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -170,7 +179,7 @@
     "com.unity.modules.audio@1.0.0": {
       "name": "com.unity.modules.audio",
       "displayName": "Audio",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.audio",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.modules.audio",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -178,7 +187,7 @@
     "com.unity.modules.cloth@1.0.0": {
       "name": "com.unity.modules.cloth",
       "displayName": "Cloth",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.cloth",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.modules.cloth",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -186,7 +195,7 @@
     "com.unity.modules.director@1.0.0": {
       "name": "com.unity.modules.director",
       "displayName": "Director",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.director",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.modules.director",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -194,7 +203,7 @@
     "com.unity.modules.imageconversion@1.0.0": {
       "name": "com.unity.modules.imageconversion",
       "displayName": "Image Conversion",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.imageconversion",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.modules.imageconversion",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -202,7 +211,7 @@
     "com.unity.modules.imgui@1.0.0": {
       "name": "com.unity.modules.imgui",
       "displayName": "IMGUI",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.imgui",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.modules.imgui",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -210,7 +219,7 @@
     "com.unity.modules.jsonserialize@1.0.0": {
       "name": "com.unity.modules.jsonserialize",
       "displayName": "JSONSerialize",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.jsonserialize",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.modules.jsonserialize",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -218,7 +227,7 @@
     "com.unity.modules.particlesystem@1.0.0": {
       "name": "com.unity.modules.particlesystem",
       "displayName": "Particle System",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.particlesystem",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.modules.particlesystem",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -226,7 +235,7 @@
     "com.unity.modules.physics@1.0.0": {
       "name": "com.unity.modules.physics",
       "displayName": "Physics",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.physics",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.modules.physics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -234,7 +243,7 @@
     "com.unity.modules.physics2d@1.0.0": {
       "name": "com.unity.modules.physics2d",
       "displayName": "Physics 2D",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.physics2d",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.modules.physics2d",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -242,7 +251,7 @@
     "com.unity.modules.screencapture@1.0.0": {
       "name": "com.unity.modules.screencapture",
       "displayName": "Screen Capture",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.screencapture",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.modules.screencapture",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -250,7 +259,7 @@
     "com.unity.modules.terrain@1.0.0": {
       "name": "com.unity.modules.terrain",
       "displayName": "Terrain",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.terrain",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.modules.terrain",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -258,7 +267,7 @@
     "com.unity.modules.terrainphysics@1.0.0": {
       "name": "com.unity.modules.terrainphysics",
       "displayName": "Terrain Physics",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.terrainphysics",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.modules.terrainphysics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -266,7 +275,7 @@
     "com.unity.modules.tilemap@1.0.0": {
       "name": "com.unity.modules.tilemap",
       "displayName": "Tilemap",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.tilemap",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.modules.tilemap",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -274,7 +283,7 @@
     "com.unity.modules.ui@1.0.0": {
       "name": "com.unity.modules.ui",
       "displayName": "UI",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.ui",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.modules.ui",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -282,7 +291,7 @@
     "com.unity.modules.uielements@1.0.0": {
       "name": "com.unity.modules.uielements",
       "displayName": "UIElements",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.uielements",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.modules.uielements",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -290,7 +299,7 @@
     "com.unity.modules.umbra@1.0.0": {
       "name": "com.unity.modules.umbra",
       "displayName": "Umbra",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.umbra",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.modules.umbra",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -298,7 +307,7 @@
     "com.unity.modules.unityanalytics@1.0.0": {
       "name": "com.unity.modules.unityanalytics",
       "displayName": "Unity Analytics",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unityanalytics",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.modules.unityanalytics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -306,7 +315,7 @@
     "com.unity.modules.unitywebrequest@1.0.0": {
       "name": "com.unity.modules.unitywebrequest",
       "displayName": "Unity Web Request",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequest",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.modules.unitywebrequest",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -314,7 +323,7 @@
     "com.unity.modules.unitywebrequestassetbundle@1.0.0": {
       "name": "com.unity.modules.unitywebrequestassetbundle",
       "displayName": "Unity Web Request Asset Bundle",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequestassetbundle",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.modules.unitywebrequestassetbundle",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -322,7 +331,7 @@
     "com.unity.modules.unitywebrequestaudio@1.0.0": {
       "name": "com.unity.modules.unitywebrequestaudio",
       "displayName": "Unity Web Request Audio",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequestaudio",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.modules.unitywebrequestaudio",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -330,7 +339,7 @@
     "com.unity.modules.unitywebrequesttexture@1.0.0": {
       "name": "com.unity.modules.unitywebrequesttexture",
       "displayName": "Unity Web Request Texture",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequesttexture",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.modules.unitywebrequesttexture",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -338,7 +347,7 @@
     "com.unity.modules.unitywebrequestwww@1.0.0": {
       "name": "com.unity.modules.unitywebrequestwww",
       "displayName": "Unity Web Request WWW",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequestwww",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.modules.unitywebrequestwww",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -346,7 +355,7 @@
     "com.unity.modules.vectorgraphics@1.0.0": {
       "name": "com.unity.modules.vectorgraphics",
       "displayName": "Vector Graphics",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.vectorgraphics",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.modules.vectorgraphics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -354,7 +363,7 @@
     "com.unity.modules.vehicles@1.0.0": {
       "name": "com.unity.modules.vehicles",
       "displayName": "Vehicles",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.vehicles",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.modules.vehicles",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -362,7 +371,7 @@
     "com.unity.modules.video@1.0.0": {
       "name": "com.unity.modules.video",
       "displayName": "Video",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.video",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.modules.video",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -370,7 +379,7 @@
     "com.unity.modules.vr@1.0.0": {
       "name": "com.unity.modules.vr",
       "displayName": "VR",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.vr",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.modules.vr",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -378,7 +387,7 @@
     "com.unity.modules.wind@1.0.0": {
       "name": "com.unity.modules.wind",
       "displayName": "Wind",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.wind",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.modules.wind",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -386,7 +395,7 @@
     "com.unity.modules.xr@1.0.0": {
       "name": "com.unity.modules.xr",
       "displayName": "XR",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.xr",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.modules.xr",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -394,7 +403,7 @@
     "com.unity.modules.subsystems@1.0.0": {
       "name": "com.unity.modules.subsystems",
       "displayName": "Subsystems",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.subsystems",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.modules.subsystems",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -402,7 +411,7 @@
     "com.unity.modules.hierarchycore@1.0.0": {
       "name": "com.unity.modules.hierarchycore",
       "displayName": "Hierarchy Core",
-      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.4f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.hierarchycore",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.modules.hierarchycore",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -420,8 +429,8 @@
     "com.unity.render-pipelines.core@17.3.0": {
       "name": "com.unity.render-pipelines.core",
       "displayName": "Scriptable Render Pipeline Core",
-      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.render-pipelines.core@40aabbb0fdcf",
-      "fingerprint": "40aabbb0fdcf109a8cd485682a43dafbd6dccaea",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.render-pipelines.core@ce614113b3ba",
+      "fingerprint": "ce614113b3ba4f5c450f963a90b948adc63aab72",
       "editorCompatibility": "6000.3.0a1",
       "version": "17.3.0",
       "source": "builtin",
@@ -430,8 +439,8 @@
     "com.unity.shadergraph@17.3.0": {
       "name": "com.unity.shadergraph",
       "displayName": "Shader Graph",
-      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.shadergraph@3686fafd4720",
-      "fingerprint": "3686fafd4720ace82369ef95f8845ee32097b233",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.shadergraph@ea01319cfd98",
+      "fingerprint": "ea01319cfd98ad2770b5f3cb7a04cb6c22cff99e",
       "editorCompatibility": "6000.3.0a1",
       "version": "17.3.0",
       "source": "builtin",
@@ -445,6 +454,96 @@
       "editorCompatibility": "6000.0.0a1",
       "version": "17.0.3",
       "source": "builtin",
+      "testable": false
+    },
+    "com.unity.2d.animation@13.0.4": {
+      "name": "com.unity.2d.animation",
+      "displayName": "2D Animation",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.2d.animation@7396d8477ca9",
+      "fingerprint": "7396d8477ca93349104292dd0d2c0df8d8ad4c21",
+      "editorCompatibility": "6000.3.0a2",
+      "version": "13.0.4",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.2d.pixel-perfect@5.1.1": {
+      "name": "com.unity.2d.pixel-perfect",
+      "displayName": "2D Pixel Perfect",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.2d.pixel-perfect@09d99455b901",
+      "fingerprint": "09d99455b9018d7a152bb766d42b2569236a7b4a",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "5.1.1",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.2d.psdimporter@12.0.1": {
+      "name": "com.unity.2d.psdimporter",
+      "displayName": "2D PSD Importer",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.2d.psdimporter@9abe0f7cac7e",
+      "fingerprint": "9abe0f7cac7effda42d93c33a6c35134cca1bee3",
+      "editorCompatibility": "6000.3.0a2",
+      "version": "12.0.1",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.2d.sprite@1.0.0": {
+      "name": "com.unity.2d.sprite",
+      "displayName": "2D Sprite",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.2d.sprite@82f01c8c75ca",
+      "fingerprint": "82f01c8c75ca2d707990e8dc249b71ab7d1aa33e",
+      "editorCompatibility": "2019.2.0a1",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.2d.spriteshape@13.0.0": {
+      "name": "com.unity.2d.spriteshape",
+      "displayName": "2D SpriteShape",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.2d.spriteshape@0738bab11647",
+      "fingerprint": "0738bab116473980325be8cdb7c3c42ab6961778",
+      "editorCompatibility": "6000.3.0a2",
+      "version": "13.0.0",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.2d.tilemap@1.0.0": {
+      "name": "com.unity.2d.tilemap",
+      "displayName": "2D Tilemap Editor",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.2d.tilemap@2428aeee2f73",
+      "fingerprint": "2428aeee2f739ba27e841f87bdc993170fe923b9",
+      "editorCompatibility": "2019.2.0a1",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.2d.tilemap.extras@6.0.1": {
+      "name": "com.unity.2d.tilemap.extras",
+      "displayName": "2D Tilemap Extras",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.2d.tilemap.extras@3dde84bf3867",
+      "fingerprint": "3dde84bf38677b4165ad5f568b353d4ba942d63c",
+      "editorCompatibility": "6000.3.0a2",
+      "version": "6.0.1",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.2d.aseprite@3.0.1": {
+      "name": "com.unity.2d.aseprite",
+      "displayName": "2D Aseprite Importer",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.2d.aseprite@809e3a168ff7",
+      "fingerprint": "809e3a168ff77eff802b4b24c10cf6254618245a",
+      "editorCompatibility": "6000.3.0a2",
+      "version": "3.0.1",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.2d.tooling@1.0.2": {
+      "name": "com.unity.2d.tooling",
+      "displayName": "2D Tooling",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.2d.tooling@249995156768",
+      "fingerprint": "2499951567687634a16f41e9f26ee5dfeb8f8da6",
+      "editorCompatibility": "6000.3.0a2",
+      "version": "1.0.2",
+      "source": "registry",
       "testable": false
     },
     "com.unity.searcher@4.9.4": {
@@ -484,6 +583,16 @@
       "fingerprint": "aea9d3bd5e19f2a90fc3a39919974a5f3613a159",
       "editorCompatibility": "2022.3.20f1",
       "version": "2.6.2",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.2d.common@12.0.2": {
+      "name": "com.unity.2d.common",
+      "displayName": "2D Common",
+      "resolvedPath": "C:\\Users\\mamem\\Touche-Tempo\\Touche Tempo\\Library\\PackageCache\\com.unity.2d.common@800085e896ad",
+      "fingerprint": "800085e896ad4b33b2dc3739891463543ac489d1",
+      "editorCompatibility": "6000.3.0a2",
+      "version": "12.0.2",
       "source": "registry",
       "testable": false
     },
