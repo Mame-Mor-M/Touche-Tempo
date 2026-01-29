@@ -22,14 +22,14 @@ public class MusicManager : MonoBehaviour
         public float currentTempo = 0;
         public int currentPosition = 0;
         public float songLength = 0;
-        public FMOD.StringWrapper lastMarker = new FMOD.StringWrapper();
+        public FMOD.StringWrapper lastMarker = new FMOD.StringWrapper(); // Gets name of marker passed on FMOD timeline, useful for tracking beat windows
     }
 
     public TimelineInfo timelineInfo = null;
 
     private GCHandle timelineHandle;
 
-    private FMOD.Studio.EVENT_CALLBACK beatCallback;
+    private FMOD.Studio.EVENT_CALLBACK beatCallback; // Returns beat event from FMOD track
     private FMOD.Studio.EventDescription descriptionCallback;
 
  public FMOD.Studio.EventInstance musicPlayEvent;
@@ -44,7 +44,7 @@ public class MusicManager : MonoBehaviour
 
     private void Start()
     {
-        timelineInfo = new TimelineInfo();
+        timelineInfo = new TimelineInfo(); // Holds track information
         beatCallback = new FMOD.Studio.EVENT_CALLBACK(BeatEventCallback);
 
         timelineHandle = GCHandle.Alloc(timelineInfo, GCHandleType.Pinned);
@@ -129,9 +129,10 @@ public class MusicManager : MonoBehaviour
 
     private void OnGUI()
     {
-        GUILayout.Box(String.Format("Current Bar = {0}, Last Marker = {1}", timelineInfo.currentBar, (string)timelineInfo.lastMarker));
+        GUILayout.Box(String.Format("Current Bar = {0}, Last Marker = {1}", timelineInfo.currentBar, (string)timelineInfo.lastMarker)); // Displays FMOD markers in game window
     }
 
+    // Frees memory when music event is finished
     void OnDestroy()
     {
         if (musicPlayEvent.isValid())

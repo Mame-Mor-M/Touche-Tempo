@@ -550,7 +550,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35c39a8dc8bd73441b29084599368822, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Judge
-  goalState: 0
+  goalState: 1
   playerState: 0
   goalBeat: 4
   metronome: {fileID: 985005380}
