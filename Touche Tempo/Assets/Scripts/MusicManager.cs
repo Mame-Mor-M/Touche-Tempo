@@ -144,7 +144,7 @@ public class MusicManager : MonoBehaviour
             {
                 windowOpen = true;
 
-                // Map markers to stances, defined with 0,1,2 in FMOD. Need to find better way of mapping so it's adjustable IN ENGINE
+                // Map markers to stances, defined with 0,1,2 in FMOD. Maybe find better way of mapping so it's adjustable IN ENGINE
                 switch ((string)timelineInfo.lastMarker)
                 {
                     case "0":
