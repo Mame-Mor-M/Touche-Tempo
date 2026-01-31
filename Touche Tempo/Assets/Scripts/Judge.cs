@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class Judge : MonoBehaviour
 {
-    public State goalState, playerState;
+    public State goalState, playerState, beatState;
     public int goalBeat;
     public Metronome metronome;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public MusicManager musicManager;
+
     public void Evaluate()
     {
+        beatState = musicManager.BeatMap(); // Returns stance mapped to beat interval. Use this wherever you need to
 
         if (playerState == goalState && metronome.activeBeat == goalBeat)
         {

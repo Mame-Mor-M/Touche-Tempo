@@ -9,7 +9,10 @@ public class MusicManager : MonoBehaviour
     public static MusicManager me;
 
     private Stack<string> timeWindow = new Stack<string>();
+    private bool windowOpen;
     private string lastMarkerName;
+
+    public State beatStance;
 
     [SerializeField]
     private EventReference music;
@@ -55,36 +58,16 @@ public class MusicManager : MonoBehaviour
         descriptionCallback.getLength(out int length);
 
         timelineInfo.songLength = length;
+        timeWindow.Clear();
     }
 
     private void Update()
     {
         musicPlayEvent.getTimelinePosition(out timelineInfo.currentPosition);
 
-        //Stack with two markers, go by marker name. I.e. 1.1 Is the start of beat 1, 1.2 is the end of beat 1 and so on. 2.1 start of beat 2, 2.2 end of beat 2.
-        //Collect first marker, person has to press button before a second marker is added, If second marker is added, clear the stack
+        BeatMap();
 
-  
-        if ((string)timelineInfo.lastMarker != lastMarkerName )
-        {
-            timeWindow.Push((string)timelineInfo.lastMarker);
-            lastMarkerName = (string)timelineInfo.lastMarker;
-
-            if (timeWindow.Count >= 2)
-            {
-                timeWindow.Clear();
-                Debug.Log("Window Closed");
-                
-            }
-            else if (timeWindow.Count == 1)
-            {
-                Debug.Log("Window OPEN");
-            }
-            
-        }
-
-        Debug.Log("WINDOW COUNT: " + timeWindow.Count); // 
-
+ 
 
     }
 
@@ -144,6 +127,53 @@ public class MusicManager : MonoBehaviour
 
         if (timelineHandle.IsAllocated)
             timelineHandle.Free();
+    }
+
+    public State BeatMap()
+    {
+        //OLD METHOD: Stack with two markers, go by marker name. I.e. 1.1 Is the start of beat 1, 1.2 is the end of beat 1 and so on. 2.1 start of beat 2, 2.2 end of beat 2.
+        //Collect first marker, person has to press button before a second marker is added, If second marker is added, clear the stack
+
+        // Used bool instead, window closes when new marker name does not correspond with old marker name. DELETE THESE COMMENTS AFTER
+        if ((string)timelineInfo.lastMarker != lastMarkerName && !string.IsNullOrEmpty(timelineInfo.lastMarker))
+        {
+            //timeWindow.Push((string)timelineInfo.lastMarker);
+            lastMarkerName = (string)timelineInfo.lastMarker;
+
+            if (!windowOpen)
+            {
+                windowOpen = true;
+
+                // Map markers to stances, defined with 0,1,2 in FMOD. Need to find better way of mapping so it's adjustable IN ENGINE
+                switch ((string)timelineInfo.lastMarker)
+                {
+                    case "0":
+                        beatStance = State.ParryLow;
+                        break;
+                    case "1":
+                        beatStance = State.ParryMedium;
+                        break;
+                    case "2":
+                        beatStance = State.ParryHigh;
+                        break;
+                    default:
+                        beatStance = State.Idle;
+                        break;
+                }
+                Debug.Log("Window OPEN: " + beatStance.ToString());
+
+
+            }
+            else
+            {
+                windowOpen = false;
+                beatStance = State.Idle;
+                Debug.Log("Window Closed");
+            }
+
+        }
+        Debug.Log("WINDOW COUNT: " + timeWindow.Count); // DELETE WHEN DONE TESTING
+        return beatStance;
     }
 
 }

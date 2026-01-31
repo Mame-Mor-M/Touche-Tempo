@@ -198,7 +198,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: 0.015581407, y: -0, z: -0, w: 0.9998786}
-  m_LocalPosition: {x: 0, y: 1.05, z: -6.427}
+  m_LocalPosition: {x: -0.23, y: 1.29, z: -6.42}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -401,7 +401,7 @@ GameObject:
   - component: {fileID: 579485582}
   - component: {fileID: 579485584}
   m_Layer: 0
-  m_Name: FMOD AUDIO
+  m_Name: MUSIC MANAGER
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -465,12 +465,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea686151d4cba12439c626870b791700, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MusicManager
+  beatStance: 0
   music:
     Guid:
-      Data1: 1221830641
-      Data2: 1088488106
-      Data3: 497690045
-      Data4: -445293166
+      Data1: -1367625536
+      Data2: 1244110338
+      Data3: -1985898834
+      Data4: -896360701
     Path: event:/MatchEvent
 --- !u!1 &832575517
 GameObject:
@@ -552,8 +553,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Judge
   goalState: 1
   playerState: 0
+  beatState: 0
   goalBeat: 4
   metronome: {fileID: 985005380}
+  musicManager: {fileID: 579485584}
 --- !u!4 &834474206
 Transform:
   m_ObjectHideFlags: 0

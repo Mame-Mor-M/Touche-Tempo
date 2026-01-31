@@ -260,7 +260,7 @@ MonoBehaviour:
   MasterBanks:
   - Master
   Banks:
-  - Vs. Swana
+  - Vs. Swan
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0
